@@ -19,7 +19,7 @@ const poppins = Poppins({
 
 export default function Home() {
   return (
-    <div>
+    <div className={s.mainContainer}>
       <main className={poppins.className}>
         <div className={s.overlay}>
           <section className={s.section}>
